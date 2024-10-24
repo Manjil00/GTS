@@ -15,12 +15,12 @@ return (
 <BrowserRouter>
 <Routes>
   <Route path="/" element={<Home/>} />
-  <Route path="/services" element={<Service/>} />
-  <Route path="/blog" element={<Blog/>} />
-  <Route path="/aboutus" element={<Aboutus/>} />
-  <Route path="/clientdairies" element={<Clientdairies/>} />
-  <Route path="/contact" element={<Contact/>} />
-  <Route path="/cart" element={<Cart/>} />
+  <Route path="/Services" element={<Service/>} />
+  <Route path="/Blog" element={<Blog/>} />
+  <Route path="/Aboutus" element={<Aboutus/>} />
+  <Route path="/ClientDairies" element={<Clientdairies/>} />
+  <Route path="/Contact" element={<Contact/>} />
+  <Route path="/Cart" element={<Cart/>} />
 </Routes>
 </BrowserRouter>
 );

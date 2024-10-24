@@ -1,11 +1,15 @@
 import React from 'react'
 
+//Components
+import Nav from '../components/Nav'
+
+
 const Home = () => {
-  return (
-    <div className='MainContainer'>
-    <h1 className='text-center text-red-800 bg-green-800'>Routes</h1>
+return (
+    <div className='MainContainer h-[100vh] w-full bg-black'>
+        <Nav/>
     </div>
-  )
+)
 }
 
 export default Home
