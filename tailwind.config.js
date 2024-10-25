@@ -3,10 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily:{
+        'titleFont': ['Archivo Black', 'sans-serif'],
+      },
       colors:{
-        'Beigebg':'#edd9ad',
-        'testcolor':'#a67816',
-        
+        'Beigebg':'#fbf0d8',
       }
     },
   },
