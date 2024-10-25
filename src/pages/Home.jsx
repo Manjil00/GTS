@@ -8,6 +8,9 @@ const Home = () => {
 return (
     <div className='MainContainer h-[100vh] w-full bg-black'>
         <Nav/>
+        <div className="Section1">
+            
+        </div>
     </div>
 )
 }
