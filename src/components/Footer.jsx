@@ -9,3 +9,7 @@ return (
 }
 
 export default Footer
+
+
+
+// top-[50px] left-[10px] md:top-[150px] md:left-[150px]
