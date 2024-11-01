@@ -1,10 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import CountUp from 'react-countup'
 //Components
 import Nav from '../components/Nav'
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    const offset = 300;
+    const duration = 600;
+
+    useEffect(()=>{
+        document.title = "Genuine Tech and Service";
+        Aos.init({offset:100,duration:600});
+
+    },[offset,
+        duration])
+
+
 return (
 <div className='MainContainer h-auto w-full bg-Beigebg'>
         <Nav/>
@@ -38,7 +51,7 @@ return (
     </div>
 
     {/* //SECTION2 */}
-    <div className="Section2 h-auto w-full md:mt-5 p-4 flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center">
+    <div className="Section2 h-auto w-full md:mt-5 p-4 flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center" data-aos="fade-up">
         <div className="left h-[200px] w-[350px] md:h-[350px] md:w-[350px]">
             <img src='../images/server1.jpg' className='rounded-xl h-[200px] w-[400px] md:h-[350px] md:w-[350px] ' alt='sec2img'/>
         </div>
@@ -50,7 +63,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     {/* SECTION3 SERVICES */}
-    <div className="Section3 h-auto w-full p-2">
+    <div className="Section3 h-auto w-full p-2" data-aos="fade-up">
         <div className="servicetext">
             <h1 className='font-sans text-xl md:text-4xl text-center mt-4'>Our Services</h1>
         </div>
@@ -98,7 +111,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     {/* SECTION 4 */}
-    <div className="Section4 h-[500px] bg-red-800 w-full p-2">
+    <div className="Section4 h-[500px] bg-red-800 w-full p-2" data-aos="fade-up">
     
     </div>
 </div>
