@@ -121,6 +121,13 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
 We offer managed IT services for small to mid-sized organizations, businesses, and non-profit organizations. We deliver a variety of IT solutions including secure and reliable Computer Networks, Web Hosting, Website and Application Development, Surveillance, and more. We are highly dedicated to addressing your business and IT needs, so please don’t hesitate to contact us to schedule a free initial consultation. We will gladly meet you at your place to discuss how our IT services can aid your business to grow stronger, in light of your current resources and your existing business process.</p>
         </div>
     </div>
+
+    {/* //SECTION-5 */}
+    <div className="Section5 h-[500px] w-full bg-red-800 p-5">
+    <div className="testimonials">
+        
+    </div>
+    </div>
 </div>
 )
 }
