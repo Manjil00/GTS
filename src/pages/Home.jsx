@@ -111,8 +111,15 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     {/* SECTION 4 */}
-    <div className="Section4 h-[500px] bg-red-800 w-full p-2" data-aos="fade-up">
-    
+    <div className="Section4WhyChooseUsh-auto w-full md:mt-5 p-5 flex flex-col md:flex-row gap-10 md:gap-20 justify-center items-center" data-aos="fade-up">
+    <div className="left h-[200px] w-[350px] md:h-[350px] md:w-[500px]">
+            <img src='../images/server1.jpg' className='rounded-xl h-[200px] w-[400px] md:h-[350px] md:w-[500px] ' alt='sec2img'/>
+        </div>
+        <div className="Righttexts w-[300px] md:w-[1000px]">
+            <h1 className='font-sans text-2xl md:text-4xl'>Why Choose Us ?</h1>
+            <p className=' mt-5 md:mt-10 font-sans text-sm md:text-md'>Genuine Tech and Services Pvt. Ltd. is an IT service company dedicated to helping its customers get the best possible return on their investment in IT infrastructure.
+We offer managed IT services for small to mid-sized organizations, businesses, and non-profit organizations. We deliver a variety of IT solutions including secure and reliable Computer Networks, Web Hosting, Website and Application Development, Surveillance, and more. We are highly dedicated to addressing your business and IT needs, so please don’t hesitate to contact us to schedule a free initial consultation. We will gladly meet you at your place to discuss how our IT services can aid your business to grow stronger, in light of your current resources and your existing business process.</p>
+        </div>
     </div>
 </div>
 )
