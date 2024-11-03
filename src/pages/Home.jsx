@@ -5,6 +5,7 @@ import Nav from '../components/Nav'
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Marquee from 'react-fast-marquee';
 
 const Home = () => {
     const offset = 300;
@@ -123,10 +124,16 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     {/* //SECTION-5 */}
-    <div className="Section5 h-[500px] w-full bg-red-800 p-5">
-    <div className="testimonials">
-        
-    </div>
+    <div className="Section5 h-auto w-full p-5" data-aos="fade-up">
+        <h1 className='font-sans text-2xl md:text-4xl text-center'>Testimonials</h1>
+    <Marquee className="testimonials flex justify-center items-center gap-5 mt-5 cursor-pointer">
+    <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee1'/>
+    <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
+    <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee1'/>
+    <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
+    <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee1'/>
+    <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
+    </Marquee>
     </div>
 </div>
 )
