@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import CountUp from 'react-countup';
 //Components
 import Nav from '../components/Nav';
@@ -6,6 +6,12 @@ import Nav from '../components/Nav';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Marquee from 'react-fast-marquee';
+
+//ICONS
+import { FiPhoneCall } from "react-icons/fi";
+import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineMail } from "react-icons/md";
+
 
 const Home = () => {
     const offset = 300;
@@ -138,17 +144,31 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
 
 {/* Section6 */}
 <div className="Section6 flex flex-col md:flex-row justify-center items-center p-5 h-auto gap-8 md:gap-14">
-    <div className="container1 h-[100px] w-[400px] bg-green-800 rounded-xl">
-    
+    <div className="container1 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <FiPhoneCall size={40} />
+    <div className="call flex flex-col justify-center items-center">
+        <h1 className='font-sans font-bold text-2xl '>Contact Us</h1>
+        <p className=''>Conatct us haiiii</p>
+    </div>
     </div>
 
-    <div className="container2  h-[100px] w-[400px] bg-green-800 rounded-xl">
-
+    <div className="container2 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <MdOutlineMail size={40}/>
+    <div className="call flex flex-col justify-center items-center">
+        <h1 className='font-sans font-bold text-2xl'>Email Us</h1>
+        <p className=''>Email us haiiii</p>
+    </div>
     </div>
 
-    <div className="container3  h-[100px] w-[400px] bg-green-800 rounded-xl">
-
+    <div className="container3 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
+    <IoLocationOutline size={40}/>
+    <div className="call flex flex-col justify-center items-center">
+        <h1 className='font-sans font-bold text-2xl'>Our Location</h1>
+        <p className=''>New Road Pako,Kathmandu</p>
     </div>
+    </div>
+
+
 </div>
 
 </div>
