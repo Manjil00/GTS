@@ -136,6 +136,21 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </Marquee>
 </div>
 
+{/* Section6 */}
+<div className="Section6 flex flex-col md:flex-row justify-center items-center p-5 h-auto gap-8 md:gap-14">
+    <div className="container1 h-[100px] w-[400px] bg-green-800 rounded-xl">
+    
+    </div>
+
+    <div className="container2  h-[100px] w-[400px] bg-green-800 rounded-xl">
+
+    </div>
+
+    <div className="container3  h-[100px] w-[400px] bg-green-800 rounded-xl">
+
+    </div>
+</div>
+
 </div>
 )
 }
