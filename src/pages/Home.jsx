@@ -148,7 +148,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     <FiPhoneCall size={40} />
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl '>Contact Us</h1>
-        <p className=''>Conatct us haiiii</p>
+        <p className=''>+977-9812345678, 01-4123456</p>
     </div>
     </div>
 
@@ -156,7 +156,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     <MdOutlineMail size={40}/>
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl'>Email Us</h1>
-        <p className=''>Email us haiiii</p>
+        <p className=''>gts@gmail.com</p>
     </div>
     </div>
 
