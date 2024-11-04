@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import CountUp from 'react-countup';
 //Components
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -11,6 +12,7 @@ import Marquee from 'react-fast-marquee';
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+
 
 
 const Home = () => {
@@ -167,9 +169,11 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
         <p className=''>New Road Pako,Kathmandu</p>
     </div>
     </div>
-
-
 </div>
+
+{/* Footer */}
+<Footer/>
+
 
 </div>
 )
