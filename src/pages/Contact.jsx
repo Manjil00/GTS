@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+//COMPONENTS
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
-    <div>
-      
+    <div className='Main-containerContact'>
+      <Nav/>
+      <div className="conatactPart">
+        
+      </div>
+      <Footer/>
     </div>
   )
 }
