@@ -7,7 +7,7 @@ import { FaFacebookMessenger } from "react-icons/fa";
 
 const Footer = () => {
 return (
-<div className="footer h-[200px] w-full p-5 flex justify-between items-center">
+<div className="footer h-[200px] w-full p-5 flex justify-between items-center bg-Beigebg">
 <div className="left h-[200px]  w-[100px] md:w-[500px] flex flex-col justify-center items-start">
     <h1 className='font-sans text-xl md:text-2xl '>Details:</h1>
     <p className='font-sans text-xs'>Location : New Road Pako, Kathmandu</p>
@@ -24,8 +24,8 @@ return (
 <FaFacebookMessenger size={20}/>
 </div>
 
-<div className="rightreserved w-[170px] md:w-[300px]">
-    <h1 className='font-sans text-xs md:text-sm '>All right Reserved by Genuine Tech and Service</h1>
+<div className="rightreserved w-[170px] md:w-[300px] ">
+    <h1 className='font-sans text-xs md:text-sm '>@All right Reserved by Genuine Tech and Service</h1>
 </div>
 </div>
 

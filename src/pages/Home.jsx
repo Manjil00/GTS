@@ -9,11 +9,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Marquee from 'react-fast-marquee';
 
-//ICONS
-
-
-
-
 const Home = () => {
     const offset = 300;
     const duration = 600;
@@ -24,7 +19,6 @@ const Home = () => {
 
     },[offset,
         duration])
-
 
 return (
 <div className='MainContainer h-auto w-full bg-Beigebg'>
@@ -147,13 +141,11 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     <CallToAction/>
 </div>
 
-
 {/* Footer */}
 <Footer/>
-
 
 </div>
 )
 }
 
-export default Home
+export default Home;
