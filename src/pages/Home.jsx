@@ -39,7 +39,7 @@ return (
             </div>
         </div>
 
-    <div className="countups flex justify-center items-center gap-5 absolute bottom-0 inset-x-6">
+    <div className="countups flex justify-center items-center gap-5 absolute bottom-0 inset-x-0 w-full">
         <div className='cards h-[100px] w-[100px] md:h-[130px] md:w-[190px] bg-blue-600 cursor-pointer hover:bg-black  rounded-xl p-3'>
                 <h1 className='text-center md:mt-2 text-xl md:text-4xl font-bold text-white '>
                     <CountUp end={25} duration={6}></CountUp>+</h1>
@@ -53,7 +53,6 @@ return (
         <div className='cards3 h-[100px] w-[100px] md:h-[130px] md:w-[190px] bg-blue-600 cursor-pointer hover:bg-black rounded-xl p-3'>
                 <h1 className='text-center md:mt-2 text-xl md:text-4xl font-bold text-white'>
                 <CountUp end={25} duration={6}></CountUp>+</h1>
-
                 <p className='text-center mt-3 break-words text-xs md:text-xl font-semibold text-white'>Projects Completed</p>
         </div>
     </div>
@@ -76,41 +75,41 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
         <div className="servicetext">
             <h1 className='font-sans text-xl md:text-4xl text-center mt-4'>Our Services</h1>
         </div>
-        <div className="cards mt-10 grid grid-cols-2 md:grid-cols-3 justify-center justify-items-center gap-y-10">
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+        <div className="cards mt-10 grid grid-cols-1 md:grid-cols-3 justify-center justify-items-center gap-y-10">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
             <button className='text-center text-sm  md:text-md bg-blue-600 rounded-lg md:rounded-xl p-2 mt-5 ml-12 md:ml-[290px]'>Learn more</button>
             </div>
 
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
             <button className='text-center text-sm  md:text-md bg-blue-600 rounded-lg md:rounded-xl p-2 mt-5 ml-12 md:ml-[290px]'>Learn more</button>
             </div>
 
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
             <button className='text-center text-sm  md:text-md bg-blue-600 rounded-lg md:rounded-xl p-2 mt-5 ml-12 md:ml-[290px]'>Learn more</button>
             </div>
 
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
             <button className='text-center text-sm  md:text-md bg-blue-600 rounded-lg md:rounded-xl p-2 mt-5 ml-12 md:ml-[290px]'>Learn more</button>
             </div>
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
             <button className='text-center text-sm  md:text-md bg-blue-600 rounded-lg md:rounded-xl p-2 mt-5 ml-12 md:ml-[290px]'>Learn more</button>
             </div>
-            <div className="card1 rounded-xl h-auto w-[200px] md:w-[400px] bg-white p-2">
+            <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
             <img src='../images/server1.jpg' className=' rounded-xl' alt='card1'/>
             <h1 className='font-sans text-lg md:text-xl text-center mt-2'>Custom Server Setup</h1>
             <p className='font-sans text-sm md:text-md text-start mt-2 ml-3'>Setting up of own and custom made servers with professionals.</p>
@@ -135,7 +134,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
 <div className="Section5 h-auto w-full p-5" data-aos="fade-up">
     <h1 className='font-sans text-2xl md:text-4xl text-center'>Testimonials</h1>
     <Marquee className="testimonials flex justify-center items-center gap-5 mt-5 cursor-pointer">
-    <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee1'/>
+    <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px]' alt='marquee1'/>
     <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
     <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee1'/>
     <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
@@ -147,7 +146,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
 {/* Section6 */}
 <div className="Section6 flex flex-col md:flex-row justify-center items-center p-5 h-auto gap-8 md:gap-14">
     <div className="container1 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
-    <FiPhoneCall size={40} />
+    <FiPhoneCall size={20} />
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl '>Contact Us</h1>
         <p className=''>+977-9812345678, 01-4123456</p>
@@ -155,7 +154,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     <div className="container2 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
-    <MdOutlineMail size={40}/>
+    <MdOutlineMail size={20}/>
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl'>Email Us</h1>
         <p className=''>gts@gmail.com</p>
@@ -163,7 +162,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     </div>
 
     <div className="container3 h-[100px] w-[400px] bg-white rounded-xl flex justify-center items-center gap-5">
-    <IoLocationOutline size={40}/>
+    <IoLocationOutline size={20}/>
     <div className="call flex flex-col justify-center items-center">
         <h1 className='font-sans font-bold text-2xl'>Our Location</h1>
         <p className=''>New Road Pako,Kathmandu</p>
