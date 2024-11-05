@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'titleFont': ['Archivo Black', 'sans-serif'],
+        'titleFont': "'Archivo Black', 'sans-serif'",
+        'LogoFont': "'Zeyada', cursive;",
       },
       colors:{
         'Beigebg':'#fbf0d8',
