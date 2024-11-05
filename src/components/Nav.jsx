@@ -12,7 +12,7 @@ return (
     <div className="flex justify-center items-center">
         <img className="w-[50px] h-[50px] mr-3" src="../icons/gtslogo.jpg" alt="Logo" />
         <h1 className='text-black ml-6  text-sm md:text-3xl
-cursor-pointer flex justify-center items-center'>Genuine Tech & Services</h1>
+cursor-pointer flex justify-center items-center font-sans'>Genuine Tech & Services</h1>
 
     </div>
     <div className={`bg-Beigebg absolute min-h-[30vh] left-0 top-[90%] w-full p-5 flex flex-col md:static md:flex md:min-h-fit md:w-auto gap-9 text-sm ${isNavOpen ? 'block' : 'hidden'}`}>

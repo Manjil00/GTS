@@ -9,7 +9,7 @@ const Service = () => {
       <Nav/>
 
       <div className="service w-full h-auto p-5">
-      <h1 className='font-sans text-center text-2xl md:text-4xl'>Our Services</h1>
+      <h1 className=' text-center text-2xl md:text-4xl font-LogoFont'>OUR SERVICES</h1>
 
       <div className="card grid grid-cols-1 md:grid-cols-3 justify-center items-center ">
 
