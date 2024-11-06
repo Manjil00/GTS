@@ -20,6 +20,22 @@ const Aboutus = () => {
       <div className="mission w-full h-auto flex flex-col justify-evenly items-center px-10 md:px-32 py-5">
       <h1 className='font-titleFont text-4xl text-center'><span className='text-blue-700'>Our</span> Mission</h1>
       <p className='font-sans mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores sed nesciunt enim, at fugiat reiciendis sapiente aperiam sit alias tenetur deleniti, dignissimos excepturi libero exercitationem laboriosam eius sequi nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores sed nesciunt enim, at fugiat reiciendis sapiente aperiam sit alias tenetur deleniti, dignissimos excepturi libero exercitationem laboriosam eius sequi nemo?</p>
+      
+      <div className="circlemissions flex flex-col md:flex-row justify-center items-center gap-5 mt-5">
+      <div className="mission1 rounded-xl h-[80px] md:h-[100px] w-[350px] bg-slate-400 flex justify-evenly items-center gap-2">
+        <img src='../images/main_photo.jpg' className='rounded-full ml-2 h-[60px] w-[60px]' alt='mission1'/>
+      <h1 className='h-[60px] w-full text-xs p-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat excepturi eligendi dolor est officiis vel non</h1>
+      </div>
+      <div className="mission1 rounded-xl h-[80px] md:h-[100px] w-[350px] bg-slate-400 flex justify-evenly items-center gap-2">
+        <img src='../images/main_photo.jpg' className='rounded-full ml-2 h-[60px] w-[60px]' alt='mission1'/>
+      <h1 className='h-[60px] w-full text-xs p-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat excepturi eligendi dolor est officiis vel non</h1>
+      </div>
+
+      <div className="mission1 rounded-xl h-[80px] md:h-[100px] w-[350px] bg-slate-400 flex justify-evenly items-center gap-2">
+        <img src='../images/main_photo.jpg' className='rounded-full ml-2 h-[60px] w-[60px]' alt='mission1'/>
+      <h1 className='h-[60px] w-full text-xs p-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat excepturi eligendi dolor est officiis vel non</h1>
+      </div>
+      </div>
       </div>
 
       <div className="mindsmagic">
