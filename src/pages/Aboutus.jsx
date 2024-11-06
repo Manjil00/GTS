@@ -9,8 +9,12 @@ const Aboutus = () => {
     <div className='Main_aboutus bg-Beigebg w-full h-auto'>
       <Nav/>
       
-      <div className="body w-full h-auto p-5">
-
+      <div className="body w-full h-auto p-5 flex justify-evenly items-start gap-10 relative">
+      <img src="../images/ITteam.jpg" className='w-[650px] h-[400px]' alt='teampicture'/>
+      <div className="aboutus">
+      <h1 className='font-titleFont text-4xl absolute left-[550px] top-10'><span className='text-red-700'>ABOUT</span> US</h1>
+      <p className='font-sans mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel debitis porro placeat quasi asperiores quae, dignissimos dicta adipisci, nihil quas repudiandae ratione modi delectus dolorum facilis? Impedit nemo itaque debitis.</p>
+      </div>
       </div>
 
       <Footer/>

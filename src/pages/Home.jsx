@@ -66,7 +66,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
     {/* SECTION3 SERVICES */}
     <div className="Section3 h-auto w-full p-2" data-aos="fade-up">
         <div className="servicetext">
-            <h1 className='font-LogoFont text-xl md:text-4xl text-center mt-4'>OUR SERVICES</h1>
+            <h1 className='font-titleFont text-xl md:text-4xl text-center mt-4'>OUR SERVICES</h1>
         </div>
         <div className="cards mt-10 grid grid-cols-1 md:grid-cols-3 justify-center justify-items-center gap-y-10">
             <div className="card1 rounded-xl h-auto w-[300px] md:w-[400px] bg-white p-2">
@@ -117,7 +117,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
             <img src='../images/server1.jpg' className='rounded-xl h-[200px] w-[400px] md:h-[350px] md:w-[500px] ' alt='sec2img'/>
         </div>
         <div className="Righttexts w-[300px] md:w-[1000px]">
-            <h1 className='font-LogoFont text-2xl md:text-4xl'>WHY CHOOSE US ?</h1>
+            <h1 className='font-titleFont text-2xl md:text-4xl'>WHY CHOOSE US ?</h1>
             <p className=' mt-5 md:mt-10 font-sans text-sm md:text-md'>Genuine Tech and Services Pvt. Ltd. is an IT service company dedicated to helping its customers get the best possible return on their investment in IT infrastructure.
 We offer managed IT services for small to mid-sized organizations, businesses, and non-profit organizations. We deliver a variety of IT solutions including secure and reliable Computer Networks, Web Hosting, Website and Application Development, Surveillance, and more. We are highly dedicated to addressing your business and IT needs, so please don’t hesitate to contact us to schedule a free initial consultation. We will gladly meet you at your place to discuss how our IT services can aid your business to grow stronger, in light of your current resources and your existing business process.</p>
         </div>
@@ -125,7 +125,7 @@ We offer managed IT services for small to mid-sized organizations, businesses, a
 
     {/* //SECTION-5 */}
 <div className="Section5 h-auto w-full p-5" data-aos="fade-up">
-    <h1 className='font-LogoFont text-2xl md:text-4xl text-center'>TESTIMONIALS</h1>
+    <h1 className='font-titleFont text-2xl md:text-4xl text-center'>TESTIMONIALS</h1>
     <Marquee className="testimonials flex justify-center items-center gap-5 mt-5 cursor-pointer">
     <img src='../images/main_photo.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px]' alt='marquee1'/>
     <img src='../images/server1.jpg' className='h-[150px] w-[300px] md:h-[300px] md:w-[500px] ml-5' alt='marquee2'/>
