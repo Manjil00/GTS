@@ -53,4 +53,4 @@ const handleSubmit=()=>{
   )
 }
 
-export default Contact
+export default Contact;

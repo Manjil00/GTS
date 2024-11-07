@@ -5,6 +5,9 @@ import 'aos/dist/aos.css';
 import Nav from "../components/Nav";
 import Footer from '../components/Footer';
 
+//Mockdata blogs
+import {gtsBlog} from '../gtsBlog';
+
 const Blog = () => {
 
   const offset = 300;
@@ -23,15 +26,21 @@ const Blog = () => {
       <Nav/>
 
       <div className="body w-full h-auto p-5 flex flex-col justify-center items-center gap-5" data-aos="fade-up">
-        <div className="BlogCard rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex justify-evenly items-center gap-8 bg-slate-500">
-        <img src='../images/main_photo.jpg' className='h-full w-[150px] md:w-[300px] rounded-xl' alt='blog1'/>
-        <div className="blogtxt">
-        <h1 className='font-sans text-xl md:text-4xl'>Title</h1>
-        <p className='font-sans text-xs md:text-sm mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo ex eveniet repudiandae ipsa porro vero? Odit beatae, amet debitis pariatur quas officiis, sed commodi animi quasi quia fuga harum.</p>
-        </div>
-        </div>
+        {
+          gtsBlog.map((blog, index) => {
+            return (
+              <div className="BlogCard rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex justify-evenly items-center gap-8 bg-slate-500">
+              <img src='../images/main_photo.jpg' className='h-full w-[150px] md:w-[300px] rounded-xl' alt='blog1'/>
+              <div className="blogtxt">
+              <h1 className='font-sans text-xl md:text-4xl'>Title</h1>
+              <p className='font-sans text-xs md:text-sm mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo ex eveniet repudiandae ipsa porro vero? Odit beatae, amet debitis pariatur quas officiis, sed commodi animi quasi quia fuga harum.</p>
+              </div>
+              </div>
+            )
+          })
+        }
 
-        <div className="BlogCard2 rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex justify-evenly items-center gap-8 bg-slate-500">
+        {/* <div className="BlogCard2 rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex justify-evenly items-center gap-8 bg-slate-500">
         <img src='../images/main_photo.jpg' className='h-full w-[150px] md:w-[300px] rounded-xl' alt='blog1'/>
         <div className="blogtxt">
         <h1 className='font-sans text-xl md:text-4xl'>Title</h1>
@@ -45,7 +54,7 @@ const Blog = () => {
         <h1 className='font-sans text-xl md:text-4xl'>Title</h1>
         <p className='font-sans text-xs md:text-sm mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo ex eveniet repudiandae ipsa porro vero? Odit beatae, amet debitis pariatur quas officiis, sed commodi animi quasi quia fuga harum.</p>
         </div>
-        </div>
+        </div> */}
       </div>
 
       <Footer/>
