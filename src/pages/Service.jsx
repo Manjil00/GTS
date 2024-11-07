@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 const Service = () => {
 
-  const offset = 300;
+  const offset = 200;
   const duration = 600;
 
   useEffect(()=>{

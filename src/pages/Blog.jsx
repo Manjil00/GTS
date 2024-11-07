@@ -10,7 +10,7 @@ import {gtsBlog} from '../gtsBlog';
 
 const Blog = () => {
 
-  const offset = 300;
+  const offset = 200;
   const duration = 600;
 
   useEffect(()=>{
@@ -30,11 +30,11 @@ const Blog = () => {
           gtsBlog.map((item, index) => {
             return (
               <div key={item.index}
-              className="BlogCard rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex items-center gap-8 bg-slate-500">
+              className="BlogCard rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex items-center gap-8 bg-slate-500" data-aos="fade-up">
               <img src={item.blogImage} className='h-[150px] w-[100px] md:w-[150px] rounded-xl' alt='blog1'/>
               <div className="blogtxt">
-              <h1 className='font-sans text-xl md:text-4xl text-center'>{item.blogTitle}</h1>
-              <p className='font-sans text-xs md:text-sm mt-5 text-center'>{item.blogContent}</p>
+              <h1 className='font-sans text-xl md:text-4xl text-start'>{item.blogTitle}</h1>
+              <p className='font-sans text-xs md:text-sm mt-5 text-start'>{item.blogContent}</p>
               </div>
               </div>
             )

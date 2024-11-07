@@ -6,7 +6,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
 const Aboutus = () => {
-  const offset = 300;
+  const offset = 200;
   const duration = 600;
 
   useEffect(()=>{
