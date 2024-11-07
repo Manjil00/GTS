@@ -1,15 +1,28 @@
-import React from 'react';
-
+import React, {useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 //Components
 import Nav from "../components/Nav";
 import Footer from '../components/Footer';
 
 const Blog = () => {
+
+  const offset = 300;
+  const duration = 600;
+
+  useEffect(()=>{
+      document.title = "Genuine Tech and Service";
+      Aos.init({offset:50,duration:600});
+
+  },[offset,
+      duration])
+
+
   return (
     <div className='main-Blog w-full h-auto bg-Beigebg '>
       <Nav/>
 
-      <div className="body w-full h-auto p-5 flex flex-col justify-center items-center gap-5">
+      <div className="body w-full h-auto p-5 flex flex-col justify-center items-center gap-5" data-aos="fade-up">
         <div className="BlogCard rounded-xl w-[350px] md:w-[900px] h-[200px] p-3 flex justify-evenly items-center gap-8 bg-slate-500">
         <img src='../images/main_photo.jpg' className='h-full w-[150px] md:w-[300px] rounded-xl' alt='blog1'/>
         <div className="blogtxt">

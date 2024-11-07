@@ -1,10 +1,22 @@
-import React from 'react'
-
+import React, {useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 //COMPONENTS
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
 const Aboutus = () => {
+  const offset = 300;
+  const duration = 600;
+
+  useEffect(()=>{
+      document.title = "Genuine Tech and Service";
+      Aos.init({offset:50,duration:600});
+
+  },[offset,
+      duration])
+
+
   return (
     <div className='Main_aboutus bg-Beigebg w-full h-auto'>
       <Nav/>
@@ -21,7 +33,7 @@ const Aboutus = () => {
       <h1 className='font-titleFont text-2xl md:text-4xl text-center'><span className='text-blue-700'>Our</span> Mission</h1>
       <p className='font-sans mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores sed nesciunt enim, at fugiat reiciendis sapiente aperiam sit alias tenetur deleniti, dignissimos excepturi libero exercitationem laboriosam eius sequi nemo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores sed nesciunt enim, at fugiat reiciendis sapiente aperiam sit alias tenetur deleniti, dignissimos excepturi libero exercitationem laboriosam eius sequi nemo?</p>
       
-      <div className="circlemissions flex flex-col md:flex-row justify-center items-center gap-5 mt-5">
+      <div className="circlemissions flex flex-col md:flex-row justify-center items-center gap-5 mt-5" data-aos="fade-up">
       <div className="mission1 rounded-xl h-[80px] md:h-[100px] w-[350px] bg-slate-400 flex justify-evenly items-center gap-2">
         <img src='../images/main_photo.jpg' className='rounded-full ml-2 h-[60px] w-[60px]' alt='mission1'/>
       <h1 className='h-[60px] w-full text-xs p-2 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat excepturi eligendi dolor est officiis vel non</h1>
@@ -38,7 +50,7 @@ const Aboutus = () => {
       </div>
       </div>
 
-      <div className="mindsmagic">
+      <div className="mindsmagic" data-aos="fade-up">
 
       <h1 className='font-titleFont text-2xl md:text-4xl text-center mt-5'>Minds Behind the Magic</h1>
 
