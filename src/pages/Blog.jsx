@@ -22,7 +22,7 @@ const Blog = () => {
 
 
   return (
-    <div className='main-Blog w-full h-auto bg-Beigebg '>
+    <div className='main-Blog w-full h-auto bg-Gts_white  '>
       <Nav/>
 
       <div className="body w-full h-auto p-5 flex flex-col justify-center items-center gap-5" data-aos="fade-up">

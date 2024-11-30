@@ -20,7 +20,7 @@ const handleSubmit=()=>{
   return (
     <div className='Main-containerContact'>
       <Nav/>
-      <div className="contactPart h-[110vh] md:h-[89vh] p-5 bg-Beigebg flex flex-col md:flex-row justify-evenly items-center gap-10">
+      <div className="contactPart h-[110vh] md:h-[89vh] p-5 bg-Gts_white  flex flex-col md:flex-row justify-evenly items-center gap-10">
         <div className="Left">
           <h1 className="text-3xl text-black font-bold">Contact Us</h1>
           <p className="text-black text-lg">+977-9812345670 / 01-4312345</p>

@@ -18,7 +18,7 @@ const Aboutus = () => {
 
 
   return (
-    <div className='Main_aboutus bg-Beigebg w-full h-auto'>
+    <div className='Main_aboutus bg-Gts_white  w-full h-auto'>
       <Nav/>
       
       <div className="body w-full h-auto py-5 px-10 flex flex-col md:flex-row justify-evenly items-start gap-10">

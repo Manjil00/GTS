@@ -8,7 +8,8 @@ module.exports = {
         'LogoFont': "'Zeyada', cursive;",
       },
       colors:{
-        'Beigebg':'#fbf0d8',
+        'Gts_blue':'#199fbd',
+        'Gts_white':'#e6f4f7',
       }
     },
   },

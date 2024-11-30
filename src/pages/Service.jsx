@@ -19,7 +19,7 @@ const Service = () => {
 
 
   return (
-    <div className='MaincontainerService w-full h-auto bg-Beigebg'>
+    <div className='MaincontainerService w-full h-auto bg-Gts_white '>
       <Nav/>
 
       <div className="service w-full h-auto p-5">
