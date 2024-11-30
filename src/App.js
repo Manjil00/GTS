@@ -1,13 +1,12 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 //PAGES
-import Home from "./pages/Home";
-import Service from "./pages/Service";
 import Aboutus from "./pages/Aboutus";
 import Blog from "./pages/Blog";
 import Clientdairies from "./pages/Clientdairies";
 import Contact from "./pages/Contact";
-
+import Home from "./pages/Home";
+import Service from "./pages/Service";
 
 function App() {
 return (
