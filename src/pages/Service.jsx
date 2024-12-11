@@ -32,7 +32,7 @@ const Service = () => {
         loop
         muted
         className='w-[390px] h-[250px] rounded-xl'/>
-        <h1 className='text-white font-sans text-3xl text-start ml-3'>Service One</h1>
+        <h1 className='text-white font-sans text-3xl text-start ml-3'>Hardware Monitoring</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans w-[100px] bg-white text-appleblack p-2 rounded-xl mt-2 ml-56 md:ml-60'>Learn More</button>
         </div>
@@ -42,7 +42,7 @@ const Service = () => {
         loop
         muted
         className='w-[390px] h-[250px] rounded-xl'/>
-        <h1 className='text-white font-sans text-3xl text-start ml-3'>Service Two</h1>
+        <h1 className='text-white font-sans text-3xl text-start ml-3'>Network Maintainence</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans bg-white p-2 rounded-xl mt-2 ml-56 md:ml-60 text-appleblack'>Learn More</button>
           </div>
@@ -52,7 +52,7 @@ const Service = () => {
         loop
         muted
         className='w-[390px] h-[250px] rounded-xl'/>
-          <h1 className='text-white font-sans text-3xl text-start ml-3'>Service Three</h1>
+          <h1 className='text-white font-sans text-3xl text-start ml-3'>Remote management</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans text-appleblack bg-white p-2 rounded-xl mt-2 ml-56 md:ml-60'>Learn More</button>
           </div>
@@ -62,14 +62,14 @@ const Service = () => {
         loop
         muted
         className='w-[390px] h-[250px] rounded-xl'/>
-        <h1 className='text-white font-sans text-3xl text-start ml-3'>Service Four</h1>
+        <h1 className='text-white font-sans text-3xl text-start ml-3'>Vmware support</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans text-appleblack bg-white p-2 rounded-xl mt-2 ml-56 md:ml-60'>Learn More</button>
         </div>
 
           <div className="CARD5 bg-black h-[450px] w-[350px] md:h-[430px] md:w-[400px] rounded-xl mt-8 p-3  cursor-pointer" data-aos="fade-up">
           <img src='../images/pic.png' className='w-[390px] h-[250px] rounded-xl' alt='3dpic'/>
-          <h1 className='text-white font-sans text-3xl text-start ml-3'>Service Five</h1>
+          <h1 className='text-white font-sans text-3xl text-start ml-3'>Server Maintainence</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans text-appleblack bg-white p-2 rounded-xl mt-2 ml-56 md:ml-60'>Learn More</button>
         </div>
@@ -79,7 +79,7 @@ const Service = () => {
         loop
         muted
         className='w-[390px] h-[250px] rounded-xl'/>
-          <h1 className='text-white font-sans text-3xl text-start ml-3'>Service Six</h1>
+          <h1 className='text-white font-sans text-3xl text-start ml-3'>Full-level Support</h1>
         <p className='text-white font-sans text-xs text-start ml-3 mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, in aliquid. Porro nesciunt et iusto neque, mollitia doloremque? Eligendi consectetur reprehenderit voluptatibus saepe, ratione dolorum. Totam et quod ipsam veritatis?</p>
         <button className='font-sans text-appleblack bg-white p-2 rounded-xl mt-2 ml-56 md:ml-60'>Learn More</button>
         </div>

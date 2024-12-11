@@ -8,7 +8,7 @@ import { FaFacebookMessenger } from "react-icons/fa";
 const Footer = () => {
 return (
 <div className="footer h-[200px] w-full p-5 flex justify-between items-center bg-Gts_white">
-<div className="left h-[200px]  w-[100px] md:w-[500px] flex flex-col justify-center items-start">
+<div className="left h-[200px]  w-[100px] md:w-[500px] flex flex-col justify-center items-start ml-2 md:ml-10">
     <h1 className='font-sans text-xl md:text-2xl '>Details:</h1>
     <p className='font-sans text-xs'>Location : New Road Pako, Kathmandu</p>
     <p className='font-sans text-xs'>Email:aaaaa@gmail.com</p>
@@ -17,11 +17,14 @@ return (
 
 <div className="rightall">
 
-<div className="right h-[50px] w-[150px] rounded-xl bg-white flex justify-evenly items-center gap-5 p-2">
-<FiInstagram size={20}/>
-<BsLinkedin size={20} />
-<FaSquareFacebook size={20}/>
-<FaFacebookMessenger size={20}/>
+<div className="right h-[50px] w-[150px] rounded-xl bg-white flex justify-evenly items-center gap-5 p-2 cursor-pointer">
+
+<FiInstagram className='h-[20px] w-[20px] hover:md:w-[50px] hover:md:h-[50px]'/>
+<BsLinkedin className='h-[20px] w-[20px] hover:md:w-[50px] hover:md:h-[50px]' />
+<FaSquareFacebook className='h-[20px] w-[20px] hover:md:w-[50px] hover:md:h-[50px]'/>
+<FaFacebookMessenger className='h-[20px] w-[20px] hover:md:w-[50px] hover:md:h-[50px]'/>
+
+
 </div>
 
 <div className="rightreserved w-[170px] md:w-[300px] ">
