@@ -17,7 +17,10 @@ return (
   <Route path="/Blog" element={<Blog/>} />
   <Route path="/Aboutus" element={<Aboutus/>} />
   <Route path="/ClientDairies" element={<Clientdairies/>} />
+<<<<<<< HEAD
   
+=======
+>>>>>>> d154118bd1524c99efd9d3a03efd08db03dbadd7
   <Route path="/Contact" element={<Contact/>} />
 </Routes>
 </BrowserRouter>
